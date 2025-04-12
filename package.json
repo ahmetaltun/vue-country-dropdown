@@ -12,29 +12,28 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build:docs": "vue-cli-service build",
-    "build": "rollup -c",
-    "lint": "vue-cli-service lint"
+    "build": "rollup -c"
   },
   "files": [
     "dist/"
   ],
   "main": "dist/vue-country-dropdown.js",
   "devDependencies": {
-    "@rollup/plugin-alias": "^5.1.0",
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-replace": "^5.0.7",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-prettier": "^6.0.0",
     "babel-eslint": "^10.1.0",
-    "core-js": "^3.36.0",
+    "core-js": "^3.41.0",
     "eslint": "^6.8.0",
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-vue": "^6.2.2",
     "path": "^0.12.7",
     "prettier": "^1.19.1",
-    "rollup": "^2.79.1",
+    "rollup": "^2.79.2",
     "rollup-plugin-analyzer": "^4.0.0",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-postcss": "^4.0.2",
